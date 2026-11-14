@@ -119,7 +119,7 @@ export default async function generarLoroNegro(data) {
             font: 'Montserrat',
             fontStyle: 'bold',
             fillColor: COLORES.marron,
-            textColor: COLORES.texto,
+            textColor: [255, 255, 255],
         },
         bodyStyles: { fillColor: [255, 255, 255] },
         alternateRowStyles: { fillColor: COLORES.filaGris }, // empieza en la 1ª fila
